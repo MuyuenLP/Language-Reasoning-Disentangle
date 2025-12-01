@@ -11,7 +11,7 @@ from transformers import AutoTokenizer
 
 from mlrs.vllms.ForSteering_vllm import ForSteeringVLLM
 
-class ForSteeringVLLMLens(ForSteeringVLLM):
+class ForSteeringVLLMMlrs(ForSteeringVLLM):
     
     def projection(self, emb, lang_dir):
         

@@ -31,10 +31,10 @@ def main(
     model_type: str = "vllm",
     if_system: bool = False,
     sys_path: str = "/data/works_jhguo/mlrs/prompts/qwen25.txt",
-    if_Lens: bool = False,
+    if_Mlrs: bool = False,
     sample: int = -1,
 ):
-    if if_Lens:
+    if if_Mlrs:
         fsvllm = ForSteeringVLLM(model_name_or_path=model_name_or_path, temperature=temperature, top_p=top_p, max_tokens=1)
     else:
         if model_type == "vllm":

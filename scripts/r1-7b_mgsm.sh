@@ -10,8 +10,8 @@ PROMPT_KEY=input
 
 OUTPUT_ROOT_DIR=$PROJECT_DIR/results/r1-distill-qwen-7b/mgsm
 
-STRENGTH_list=(0.3)
-STRENGTH_list2=(0 -0.1 -0.2 0.3)
+STRENGTH_list=(0 0.1 0.2 0.3 0.4)
+STRENGTH_list2=(0 -0.1 -0.2 -0.3 -0.4)
 STEERING_layers="[10,11,12,13,14,15,16,17,18,19]"
 STEERING_layers2="[20,21,22,23,24,25,26,27]"
 
@@ -40,7 +40,7 @@ do
             --top_p 0.95 \
             --max_tokens 16384 \
             --tensor_parallel_size 2 \
-            --steering_method Lens \
+            --steering_method Mlrs \
             --steering_layers $STEERING_layers \
             --steering_layers2 $STEERING_layers2
     

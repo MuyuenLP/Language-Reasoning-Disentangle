@@ -9,13 +9,13 @@ import torch
 from vllm.entrypoints.openai.reasoning_parsers import ReasoningParserManager, ReasoningParser
 
 from mlrs.vllms.ForSteering_vllm import ForSteeringVLLM
-from mlrs.vllms.ForSteering_vllm_Lens import ForSteeringVLLMLens
+from mlrs.vllms.ForSteering_vllm_Mlrs import ForSteeringVLLMMlrs
 
 from mlrs.lib._df import read_file, save_file
 from freeEvalLM.src.Task import TaskLoader
 
 from vllm import ModelRegistry
-from mlrs.vllms.steer_qwen2_vllm_lens import LensSteerQwen2ForCausalLM
+from mlrs.vllms.steer_qwen2_vllm_lens import MlrsSteerQwen2ForCausalLM
 
 
 def main(
@@ -57,8 +57,8 @@ def main(
     # 记录模型加载开始时间
     model_load_start_time = time.time()
     
-    if steering_method == "Lens" and steering_level=="all":
-        ModelRegistry.register_model("Qwen2ForCausalLM", LensSteerQwen2ForCausalLM)
+    if steering_method == "Mlrs" and steering_level=="all":
+        ModelRegistry.register_model("Qwen2ForCausalLM", MlrsSteerQwen2ForCausalLM)
         fsvllm = ForSteeringVLLM(model_name_or_path=model_name_or_path, temperature=temperature, top_p=top_p, tensor_parallel_size=tensor_parallel_size, max_tokens=max_tokens, max_model_lens=max_model_lens, steering_layers=steering_layers, steering_level=steering_level)
     else:
         raise ValueError(f"Unknown steering method: {steering_method}")
