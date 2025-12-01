@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/PyTorch-2.5.1-red.svg" alt="PyTorch Version"/>
   </a>
 
-  <strong>The official implementation for the NeurIPS Spotlight 💡 2025 paper</strong>  
+  <strong>The official implementation for the NeurIPS 2025 💡 Spotlight Paper</strong>  
   <em>"When Less Language is More: Language-Reasoning Disentanglement Makes LLMs Better Multilingual Reasoners"</em>
 
   <p>
@@ -128,10 +128,5 @@ python mlrs/src/grid_search_analyzer.py ./results/your_model/mgsm
 If you find our work useful for your research, please kindly cite our paper:
 
 ```bibtex
-@article{zhao2025less,
-  title={When Less Language is More: Language-Reasoning Disentanglement Makes LLMs Better Multilingual Reasoners},
-  author={Zhao, Weixiang and Guo, Jiahe and Deng, Yang and Wu, Tongtong and Zhang, Wenxuan and Hu, Yulin and Sui, Xingyu and Zhao, Yanyan and Che, Wanxiang and Qin, Bing and others},
-  journal={arXiv preprint arXiv:2505.15257},
-  year={2025}
-}
+Coming Soon
 ```
