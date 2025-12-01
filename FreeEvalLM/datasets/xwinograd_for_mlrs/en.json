@@ -1,0 +1,1602 @@
+[
+    {
+        "sentence": "Seagate recently announced to their investors that production will not go back to normal until the end of 2012 because _ had their factories flooded last month.",
+        "option1": "their investors",
+        "option2": "Seagate",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSeagate recently announced to their investors that production will not go back to normal until the end of 2012 because _ had their factories flooded last month.\n\nA) their investors\nB) Seagate\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Jim was staring at the guy with the snowboard, because _ wanted to be like him.",
+        "option1": "Jim",
+        "option2": "the guy",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJim was staring at the guy with the snowboard, because _ wanted to be like him.\n\nA) Jim\nB) the guy\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, _ were victorious within weeks.",
+        "option1": "Yakutsk",
+        "option2": "Kamtchatka",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nIn July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, _ were victorious within weeks.\n\nA) Yakutsk\nB) Kamtchatka\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Windows is worse than Linux because _ is open source.",
+        "option1": "Linux",
+        "option2": "Windows",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nWindows is worse than Linux because _ is open source.\n\nA) Linux\nB) Windows\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Jupiter is bigger than the Earth, but _ is heavier due to being solid.",
+        "option1": "the Earth",
+        "option2": "Jupiter",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJupiter is bigger than the Earth, but _ is heavier due to being solid.\n\nA) the Earth\nB) Jupiter\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Joe has more money than Adam since _ has no job.",
+        "option1": "Adam",
+        "option2": "Joe",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJoe has more money than Adam since _ has no job.\n\nA) Adam\nB) Joe\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The waitress noticed that Rebecca's glass was empty, so _ handed her the glass to fill it.",
+        "option1": "Rebecca",
+        "option2": "The waitress",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe waitress noticed that Rebecca's glass was empty, so _ handed her the glass to fill it.\n\nA) Rebecca\nB) The waitress\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "AMD's Bulldozer chips have received lukewarm reception compared to Intel's Sandy Bridge chips since _ were much faster in processing speed.",
+        "option1": "Intel's Sandy Bridge chips",
+        "option2": "AMD's Bulldozer chips",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nAMD's Bulldozer chips have received lukewarm reception compared to Intel's Sandy Bridge chips since _ were much faster in processing speed.\n\nA) Intel's Sandy Bridge chips\nB) AMD's Bulldozer chips\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The fisherman hooked a big fish but _ dropped his pole.",
+        "option1": "a big fish",
+        "option2": "The fisherman",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe fisherman hooked a big fish but _ dropped his pole.\n\nA) a big fish\nB) The fisherman\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Herald Simmons has tremendous skill in rousing up the audience for Knight Keller, so _ recruited him solely to get the audience riled up for him.",
+        "option1": "Knight Keller",
+        "option2": "Herald Simmons",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nHerald Simmons has tremendous skill in rousing up the audience for Knight Keller, so _ recruited him solely to get the audience riled up for him.\n\nA) Knight Keller\nB) Herald Simmons\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The dog hunted the fox because _ was hungry.",
+        "option1": "the fox",
+        "option2": "The dog",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe dog hunted the fox because _ was hungry.\n\nA) the fox\nB) The dog\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The gym teachers trained the students because _ wanted to teach them discipline.",
+        "option1": "the students",
+        "option2": "The gym teachers",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe gym teachers trained the students because _ wanted to teach them discipline.\n\nA) the students\nB) The gym teachers\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Steve threw the bowling ball down the lane when _ was clear.",
+        "option1": "the bowling ball",
+        "option2": "the lane",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSteve threw the bowling ball down the lane when _ was clear.\n\nA) the bowling ball\nB) the lane\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Will Smith got his son in a movie since _ is the son of a famous movie actor.",
+        "option1": "Will Smith",
+        "option2": "his son",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nWill Smith got his son in a movie since _ is the son of a famous movie actor.\n\nA) Will Smith\nB) his son\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The hippo ate the food the trainer brought when _ was hungry.",
+        "option1": "The hippo",
+        "option2": "the trainer",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe hippo ate the food the trainer brought when _ was hungry.\n\nA) The hippo\nB) the trainer\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father , _ was twelve months old.",
+        "option1": "my father",
+        "option2": "Fred",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nFred is the only man alive who still remembers my father as an infant. When Fred first saw my father , _ was twelve months old.\n\nA) my father\nB) Fred\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The wine busted the cask because _ was too carbonated.",
+        "option1": "the cask",
+        "option2": "The wine",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe wine busted the cask because _ was too carbonated.\n\nA) the cask\nB) The wine\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "JP Morgan Bank developed a mobile banking application which gives an edge over competitor Bank of America since _ appeal well consumers who want accessible banking.",
+        "option1": "Bank of America",
+        "option2": "JP Morgan Bank",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJP Morgan Bank developed a mobile banking application which gives an edge over competitor Bank of America since _ appeal well consumers who want accessible banking.\n\nA) Bank of America\nB) JP Morgan Bank\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The teacher told the student that _ needed to practice.",
+        "option1": "The teacher",
+        "option2": "the student",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe teacher told the student that _ needed to practice.\n\nA) The teacher\nB) the student\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Amazon recently upstaged Gamestop on Battlefield 3 pre-orders because _ are not able to match their competitor's aggressive pricing.",
+        "option1": "Gamestop",
+        "option2": "Amazon",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nAmazon recently upstaged Gamestop on Battlefield 3 pre-orders because _ are not able to match their competitor's aggressive pricing.\n\nA) Gamestop\nB) Amazon\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The dog chased the cat , which ran up a tree. _ waited at the top.",
+        "option1": "The dog",
+        "option2": "the cat",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe dog chased the cat , which ran up a tree. _ waited at the top.\n\nA) The dog\nB) the cat\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Mark was close to Mr. Singer 's heels. He heard him calling for the captain , promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all _ crew had best stay in the cabin until the work was over.",
+        "option1": "Mark",
+        "option2": "the captain",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMark was close to Mr. Singer 's heels. He heard him calling for the captain , promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all _ crew had best stay in the cabin until the work was over.\n\nA) Mark\nB) the captain\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Butters wanted to steal the movie Spiderman from Kenny because _ would not lend it to him.",
+        "option1": "Butters",
+        "option2": "Kenny",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nButters wanted to steal the movie Spiderman from Kenny because _ would not lend it to him.\n\nA) Butters\nB) Kenny\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The chef held the waiter so that _ would not flee.",
+        "option1": "The chef",
+        "option2": "the waiter",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe chef held the waiter so that _ would not flee.\n\nA) The chef\nB) the waiter\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Kung Fu teachers try to pass on discipline to their disciples, but _ do not always learn what they are being taught very well.",
+        "option1": "their disciples",
+        "option2": "Kung Fu teachers",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nKung Fu teachers try to pass on discipline to their disciples, but _ do not always learn what they are being taught very well.\n\nA) their disciples\nB) Kung Fu teachers\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The path to the lake was blocked, so we couldn't use _ .",
+        "option1": "the lake",
+        "option2": "The path",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe path to the lake was blocked, so we couldn't use _ .\n\nA) the lake\nB) The path\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The father convinced his son that it is possible for him to one day become a knight, but _ may never achieve such status coming from a peasant family.",
+        "option1": "The father",
+        "option2": "his son",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe father convinced his son that it is possible for him to one day become a knight, but _ may never achieve such status coming from a peasant family.\n\nA) The father\nB) his son\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The student couldn't understand the teacher because _ wasn't paying attention.",
+        "option1": "The student",
+        "option2": "the teacher",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe student couldn't understand the teacher because _ wasn't paying attention.\n\nA) The student\nB) the teacher\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Sprint is now selling the IPhone just like Verizon, because _ want to also attract customers who are fans of the IPhone.",
+        "option1": "Verizon",
+        "option2": "Sprint",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSprint is now selling the IPhone just like Verizon, because _ want to also attract customers who are fans of the IPhone.\n\nA) Verizon\nB) Sprint\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The band connected well to their fans, so _ continued to buy albums.",
+        "option1": "The band",
+        "option2": "their fans",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe band connected well to their fans, so _ continued to buy albums.\n\nA) The band\nB) their fans\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Neil Armstrong was actually sent on a secret mission assigned by President Kennedy to investigate an abnormal event because _ needed the US to beat Russia there.",
+        "option1": "President Kennedy",
+        "option2": "Neil Armstrong",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nNeil Armstrong was actually sent on a secret mission assigned by President Kennedy to investigate an abnormal event because _ needed the US to beat Russia there.\n\nA) President Kennedy\nB) Neil Armstrong\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The geology department petitioned the school board for money because _ needed funding.",
+        "option1": "the school board",
+        "option2": "The geology department",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe geology department petitioned the school board for money because _ needed funding.\n\nA) the school board\nB) The geology department\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "John hired Bill because _ needed someone.",
+        "option1": "Bill",
+        "option2": "John",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJohn hired Bill because _ needed someone.\n\nA) Bill\nB) John\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Sony recently locked 90000 users from their accounts because _ had been been compromised.",
+        "option1": "90000 users",
+        "option2": "Sony",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSony recently locked 90000 users from their accounts because _ had been been compromised.\n\nA) 90000 users\nB) Sony\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The boy laughed at his friend because _ made the joke.",
+        "option1": "his friend",
+        "option2": "The boy",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe boy laughed at his friend because _ made the joke.\n\nA) his friend\nB) The boy\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Emma did not pass the ball to Janie although _ saw that she was open.",
+        "option1": "Janie",
+        "option2": "Emma",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nEmma did not pass the ball to Janie although _ saw that she was open.\n\nA) Janie\nB) Emma\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Hair Stylists transformed the Cowboy's Cheerleaders into beauties, since _ need to look top notch for the game.",
+        "option1": "Hair Stylists",
+        "option2": "the Cowboy's Cheerleaders",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nHair Stylists transformed the Cowboy's Cheerleaders into beauties, since _ need to look top notch for the game.\n\nA) Hair Stylists\nB) the Cowboy's Cheerleaders\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The drain is clogged with hair. _ has to be removed.",
+        "option1": "The drain",
+        "option2": "hair",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe drain is clogged with hair. _ has to be removed.\n\nA) The drain\nB) hair\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "A man's life and a horse's life are worth more than some foxes' tails ; al least _ ought to be.",
+        "option1": "foxes' tails",
+        "option2": "A man's life and a horse's life",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nA man's life and a horse's life are worth more than some foxes' tails ; al least _ ought to be.\n\nA) foxes' tails\nB) A man's life and a horse's life\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Retail stores have been trying to pass an internet tax on online retailers for the past few years because _ feel it would level the playing field.",
+        "option1": "online retailers",
+        "option2": "Retail stores",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nRetail stores have been trying to pass an internet tax on online retailers for the past few years because _ feel it would level the playing field.\n\nA) online retailers\nB) Retail stores\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Joan made sure to thank Susan for all the help _ had recieved.",
+        "option1": "Joan",
+        "option2": "Susan",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJoan made sure to thank Susan for all the help _ had recieved.\n\nA) Joan\nB) Susan\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Rebecca kissed Dina because _ loves her.",
+        "option1": "Rebecca",
+        "option2": "Dina",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nRebecca kissed Dina because _ loves her.\n\nA) Rebecca\nB) Dina\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The NSA sent their agents in the field to retrieve intelligence because _ need people in the field to do the field work.",
+        "option1": "The NSA",
+        "option2": "their agents",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe NSA sent their agents in the field to retrieve intelligence because _ need people in the field to do the field work.\n\nA) The NSA\nB) their agents\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "John kicked Bill because _ was angry.",
+        "option1": "John",
+        "option2": "Bill",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJohn kicked Bill because _ was angry.\n\nA) John\nB) Bill\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The Swiss bank freezed the accounts of a crime syndicate because _ had fraudulent money deposited in their account.",
+        "option1": "The Swiss bank",
+        "option2": "a crime syndicate",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe Swiss bank freezed the accounts of a crime syndicate because _ had fraudulent money deposited in their account.\n\nA) The Swiss bank\nB) a crime syndicate\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "I put the butterfly wing on the table and _ broke.",
+        "option1": "the butterfly wing",
+        "option2": "the table",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nI put the butterfly wing on the table and _ broke.\n\nA) the butterfly wing\nB) the table\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The kids asked their neighbors if _ had any candy on Halloween.",
+        "option1": "their neighbors",
+        "option2": "The kids",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe kids asked their neighbors if _ had any candy on Halloween.\n\nA) their neighbors\nB) The kids\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Saudi Arabians do not respect the Bangladeshis because _ are rich.",
+        "option1": "Saudi Arabians",
+        "option2": "Bangladeshis",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSaudi Arabians do not respect the Bangladeshis because _ are rich.\n\nA) Saudi Arabians\nB) Bangladeshis\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "A dog chewed a bone and _ became wet.",
+        "option1": "a bone",
+        "option2": "A dog",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nA dog chewed a bone and _ became wet.\n\nA) a bone\nB) A dog\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Claudia lost all her money to Valarie because _ is really smart.",
+        "option1": "Valarie",
+        "option2": "Claudia",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nClaudia lost all her money to Valarie because _ is really smart.\n\nA) Valarie\nB) Claudia\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The cabbage was in the freezer and _ became frozen.",
+        "option1": "the freezer",
+        "option2": "The cabbage",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe cabbage was in the freezer and _ became frozen.\n\nA) the freezer\nB) The cabbage\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Mel got in trouble with a collector named Bohr, so _ tracked him down to try to collect all the owed money.",
+        "option1": "a collector named Bohr",
+        "option2": "Mel",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMel got in trouble with a collector named Bohr, so _ tracked him down to try to collect all the owed money.\n\nA) a collector named Bohr\nB) Mel\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The man jumped on the neighbor's pool and _ stared.",
+        "option1": "The man",
+        "option2": "the neighbor",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe man jumped on the neighbor's pool and _ stared.\n\nA) The man\nB) the neighbor\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The dog chased the cat , which ran up a tree. _ waited at the bottom.",
+        "option1": "The dog",
+        "option2": "the cat",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe dog chased the cat , which ran up a tree. _ waited at the bottom.\n\nA) The dog\nB) the cat\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Jane knocked on Susan 's door, but there was no answer. _ was disappointed.",
+        "option1": "Jane",
+        "option2": "Susan",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJane knocked on Susan 's door, but there was no answer. _ was disappointed.\n\nA) Jane\nB) Susan\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The Board of Directors fired the management from the company since _ were not managing the company well.",
+        "option1": "the management",
+        "option2": "The Board of Directors",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe Board of Directors fired the management from the company since _ were not managing the company well.\n\nA) the management\nB) The Board of Directors\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Audrey Hepburn made more movies than Katherine Hepburn because _ was not as good at acting.",
+        "option1": "Audrey Hepburn",
+        "option2": "Katherine Hepburn",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nAudrey Hepburn made more movies than Katherine Hepburn because _ was not as good at acting.\n\nA) Audrey Hepburn\nB) Katherine Hepburn\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The Playstation is outperforming the Xbox because _ is prone to hardware failure.",
+        "option1": "the Xbox",
+        "option2": "The Playstation",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe Playstation is outperforming the Xbox because _ is prone to hardware failure.\n\nA) the Xbox\nB) The Playstation\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "When Debbie splashed Tina, _ got wet.",
+        "option1": "Tina",
+        "option2": "Debbie",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nWhen Debbie splashed Tina, _ got wet.\n\nA) Tina\nB) Debbie\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The parents grounded the children since _ were disobedient.",
+        "option1": "the children",
+        "option2": "The parents",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe parents grounded the children since _ were disobedient.\n\nA) the children\nB) The parents\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Scientists have created a serum which transforms men into super soldiers, because _ needed to create an unstoppable army.",
+        "option1": "Scientists",
+        "option2": "men",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nScientists have created a serum which transforms men into super soldiers, because _ needed to create an unstoppable army.\n\nA) Scientists\nB) men\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Naruto has about 200 more episodes then Code Geass because _ finished the story in much fewer episodes.",
+        "option1": "Code Geass",
+        "option2": "Naruto",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nNaruto has about 200 more episodes then Code Geass because _ finished the story in much fewer episodes.\n\nA) Code Geass\nB) Naruto\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "I chopped down the tree with my axe because _ was tall.",
+        "option1": "my axe",
+        "option2": "the tree",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nI chopped down the tree with my axe because _ was tall.\n\nA) my axe\nB) the tree\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Range Rover recently revealed their new lineup of cars at Times Square for thousands of New Yorkers so _ would be enticed to purchase their cars.",
+        "option1": "Range Rover",
+        "option2": "thousands of New Yorkers",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nRange Rover recently revealed their new lineup of cars at Times Square for thousands of New Yorkers so _ would be enticed to purchase their cars.\n\nA) Range Rover\nB) thousands of New Yorkers\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The FBI usually take over the crime scene from the police because _ sometimes need help to investigate the crime.",
+        "option1": "the police",
+        "option2": "The FBI",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe FBI usually take over the crime scene from the police because _ sometimes need help to investigate the crime.\n\nA) the police\nB) The FBI\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The alter boy assisted Knight Mordron in his mission because _ hopes he will get knighted afterwards.",
+        "option1": "Knight Mordron",
+        "option2": "The alter boy",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe alter boy assisted Knight Mordron in his mission because _ hopes he will get knighted afterwards.\n\nA) Knight Mordron\nB) The alter boy\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The boy gave his friend a cookie because _ had an extra.",
+        "option1": "The boy",
+        "option2": "his friend",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe boy gave his friend a cookie because _ had an extra.\n\nA) The boy\nB) his friend\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Range Rover recently revealed their new lineup of cars at Times Square for thousands of New Yorkers since _ are advertising their new high end models.",
+        "option1": "Range Rover",
+        "option2": "thousands of New Yorkers",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nRange Rover recently revealed their new lineup of cars at Times Square for thousands of New Yorkers since _ are advertising their new high end models.\n\nA) Range Rover\nB) thousands of New Yorkers\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Kate Middleton is viewed as a newer generation Princess Diana because _ is also being compared as a fashion symbol.",
+        "option1": "Princess Diana",
+        "option2": "Kate Middleton",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nKate Middleton is viewed as a newer generation Princess Diana because _ is also being compared as a fashion symbol.\n\nA) Princess Diana\nB) Kate Middleton\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Richard blackmailed Senator Carson so that _ rise to power would be secured.",
+        "option1": "Senator Carson",
+        "option2": "Richard",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nRichard blackmailed Senator Carson so that _ rise to power would be secured.\n\nA) Senator Carson\nB) Richard\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The cat was lying by the mouse hole waiting for the mouse , but _ was too impatient.",
+        "option1": "the mouse",
+        "option2": "The cat",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe cat was lying by the mouse hole waiting for the mouse , but _ was too impatient.\n\nA) the mouse\nB) The cat\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The army organized their forces to sneak past the Decepticons in the city since _ have the upper hand in a straight fight.",
+        "option1": "The army",
+        "option2": "the Decepticons",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe army organized their forces to sneak past the Decepticons in the city since _ have the upper hand in a straight fight.\n\nA) The army\nB) the Decepticons\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Pirates are always compared to ninjas, but _ are more specific to Japanese culture.",
+        "option1": "Pirates",
+        "option2": "ninjas",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nPirates are always compared to ninjas, but _ are more specific to Japanese culture.\n\nA) Pirates\nB) ninjas\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "John appreciated Bill because _ had been in need.",
+        "option1": "John",
+        "option2": "Bill",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJohn appreciated Bill because _ had been in need.\n\nA) John\nB) Bill\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Software gives more profit over hardware since _ have little cost associated with selling more.",
+        "option1": "hardware",
+        "option2": "Software",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSoftware gives more profit over hardware since _ have little cost associated with selling more.\n\nA) hardware\nB) Software\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The government officials publicly apologized to the people because _ were forced to.",
+        "option1": "The government officials",
+        "option2": "the people",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe government officials publicly apologized to the people because _ were forced to.\n\nA) The government officials\nB) the people\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Thomas pursued Peter, but _ escaped.",
+        "option1": "Peter",
+        "option2": "Thomas",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThomas pursued Peter, but _ escaped.\n\nA) Peter\nB) Thomas\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The music player did not open the file because _ did not play that format.",
+        "option1": "the file",
+        "option2": "The music player",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe music player did not open the file because _ did not play that format.\n\nA) the file\nB) The music player\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, _ was gone.",
+        "option1": "cloud",
+        "option2": "The sun",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, _ was gone.\n\nA) cloud\nB) The sun\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The boy laughed at his friend because _ heard the joke.",
+        "option1": "The boy",
+        "option2": "his friend",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe boy laughed at his friend because _ heard the joke.\n\nA) The boy\nB) his friend\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The fisherman hooked a big fish but _ got away.",
+        "option1": "The fisherman",
+        "option2": "a big fish",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe fisherman hooked a big fish but _ got away.\n\nA) The fisherman\nB) a big fish\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Sir Clifford wants me to find him a new groom , about twenty or twenty-one, who knows _ business. His old coachman is getting feeble, and he wants a man to work with him and get into his ways, who would be able, when the old man was pensioned off, to step into his place",
+        "option1": "old coachman",
+        "option2": "new groom",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSir Clifford wants me to find him a new groom , about twenty or twenty-one, who knows _ business. His old coachman is getting feeble, and he wants a man to work with him and get into his ways, who would be able, when the old man was pensioned off, to step into his place\n\nA) old coachman\nB) new groom\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The politicians far away in Washington could not know the settlers so they must make rules to regulate _ .",
+        "option1": "settlers",
+        "option2": "politicians",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe politicians far away in Washington could not know the settlers so they must make rules to regulate _ .\n\nA) settlers\nB) politicians\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Keith fired Blaine but _ did not regret.",
+        "option1": "Blaine",
+        "option2": "Keith",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nKeith fired Blaine but _ did not regret.\n\nA) Blaine\nB) Keith\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The squirrels buried the nuts so _ would not get lost.",
+        "option1": "The squirrels",
+        "option2": "the nuts",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe squirrels buried the nuts so _ would not get lost.\n\nA) The squirrels\nB) the nuts\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Fred watched TV while George went out to buy groceries. After an hour _ got up.",
+        "option1": "George",
+        "option2": "Fred",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nFred watched TV while George went out to buy groceries. After an hour _ got up.\n\nA) George\nB) Fred\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The Wainwrights treated Mr. Crowley like a prince until he made his will in _ favor; then they treated him like dirt. Folks said he died just to be rid of their everlasting nagging.",
+        "option1": "Folks",
+        "option2": "Wainwrights",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe Wainwrights treated Mr. Crowley like a prince until he made his will in _ favor; then they treated him like dirt. Folks said he died just to be rid of their everlasting nagging.\n\nA) Folks\nB) Wainwrights\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The alter boy assisted Knight Mordron in his mission, but _ did not want his help.",
+        "option1": "The alter boy",
+        "option2": "Knight Mordron",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe alter boy assisted Knight Mordron in his mission, but _ did not want his help.\n\nA) The alter boy\nB) Knight Mordron\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Lorenze took his son to the hospital since _ was concerned for his health.",
+        "option1": "Lorenze",
+        "option2": "his son",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nLorenze took his son to the hospital since _ was concerned for his health.\n\nA) Lorenze\nB) his son\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Gamers are generally perceived as nerds compared to athletes since _ are stereotypically social and in good shape.",
+        "option1": "Gamers",
+        "option2": "athletes",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nGamers are generally perceived as nerds compared to athletes since _ are stereotypically social and in good shape.\n\nA) Gamers\nB) athletes\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Neil Patrick Harris is a better singer than Dave Chappelle, since _ had experience from Broadway.",
+        "option1": "Dave Chappelle",
+        "option2": "Neil Patrick Harris",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nNeil Patrick Harris is a better singer than Dave Chappelle, since _ had experience from Broadway.\n\nA) Dave Chappelle\nB) Neil Patrick Harris\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Harley hides from Dyna because _ is afraid of her.",
+        "option1": "Dyna",
+        "option2": "Harley",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nHarley hides from Dyna because _ is afraid of her.\n\nA) Dyna\nB) Harley\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Rocky won the match with Richard because _ had no energy.",
+        "option1": "Rocky",
+        "option2": "Richard",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nRocky won the match with Richard because _ had no energy.\n\nA) Rocky\nB) Richard\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "James cheated off Henry's test, and the Teacher told _.",
+        "option1": "James",
+        "option2": "Henry",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJames cheated off Henry's test, and the Teacher told _.\n\nA) James\nB) Henry\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Jim taught John rhetoric to become a lawyer, but _ did not pay him.",
+        "option1": "John",
+        "option2": "Jim",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJim taught John rhetoric to become a lawyer, but _ did not pay him.\n\nA) John\nB) Jim\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Neil Patrick Harris is a better singer than Dave Chappelle,since _ does not have time to become a good singer due to his comedy career.",
+        "option1": "Dave Chappelle",
+        "option2": "Neil Patrick Harris",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nNeil Patrick Harris is a better singer than Dave Chappelle,since _ does not have time to become a good singer due to his comedy career.\n\nA) Dave Chappelle\nB) Neil Patrick Harris\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The mother bear attacked Karen because _ had gotten too close to her cub.",
+        "option1": "Karen",
+        "option2": "The mother bear",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe mother bear attacked Karen because _ had gotten too close to her cub.\n\nA) Karen\nB) The mother bear\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Olga kicked Sara because _ woke her up.",
+        "option1": "Sara",
+        "option2": "Olga",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nOlga kicked Sara because _ woke her up.\n\nA) Sara\nB) Olga\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Microsoft Azure provides cloud servers for consumers because _ are providing the infrastructure for a future in cloud computing.",
+        "option1": "Microsoft Azure",
+        "option2": "consumers",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMicrosoft Azure provides cloud servers for consumers because _ are providing the infrastructure for a future in cloud computing.\n\nA) Microsoft Azure\nB) consumers\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "When Mr. Bond , the veterinarian, came to look at the black horse that lay groaning on the grass, _ felt him all over, and shook his head; one of his legs was broken.",
+        "option1": "Mr. Bond",
+        "option2": "the black horse",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nWhen Mr. Bond , the veterinarian, came to look at the black horse that lay groaning on the grass, _ felt him all over, and shook his head; one of his legs was broken.\n\nA) Mr. Bond\nB) the black horse\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Clark Kent hides his identity from Lex Luthor because _ wants to find out who this masked hero is.",
+        "option1": "Clark Kent",
+        "option2": "Lex Luthor",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nClark Kent hides his identity from Lex Luthor because _ wants to find out who this masked hero is.\n\nA) Clark Kent\nB) Lex Luthor\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "James asked Robert for a favor, but _ was refused.",
+        "option1": "Robert",
+        "option2": "James",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJames asked Robert for a favor, but _ was refused.\n\nA) Robert\nB) James\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Pigs are better than sheep because _ do not make bacon.",
+        "option1": "sheep",
+        "option2": "Pigs",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nPigs are better than sheep because _ do not make bacon.\n\nA) sheep\nB) Pigs\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The graduate students spend every waking moment studying for their classes since _ offer much knowledge and tests as part of their itinerary.",
+        "option1": "their classes",
+        "option2": "The graduate students",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe graduate students spend every waking moment studying for their classes since _ offer much knowledge and tests as part of their itinerary.\n\nA) their classes\nB) The graduate students\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The computer rejected the password because _ was incorrect.",
+        "option1": "The computer",
+        "option2": "the password",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe computer rejected the password because _ was incorrect.\n\nA) The computer\nB) the password\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "John nicked Bill because _ needed money.",
+        "option1": "John",
+        "option2": "Bill",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJohn nicked Bill because _ needed money.\n\nA) John\nB) Bill\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "I used an old rag to clean the knife, and then I put _ in the trash.",
+        "option1": "rag",
+        "option2": "the knife",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nI used an old rag to clean the knife, and then I put _ in the trash.\n\nA) rag\nB) the knife\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Stephen Colbert is funnier than John Stewart since _ show has less viewers.",
+        "option1": "John Stewart",
+        "option2": "Stephen Colbert",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nStephen Colbert is funnier than John Stewart since _ show has less viewers.\n\nA) John Stewart\nB) Stephen Colbert\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Jeremy annoyed Justin so _ can leave the room.",
+        "option1": "Justin",
+        "option2": "Jeremy",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJeremy annoyed Justin so _ can leave the room.\n\nA) Justin\nB) Jeremy\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The rock melted in the lava because _ was pushed.",
+        "option1": "the lava",
+        "option2": "The rock",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe rock melted in the lava because _ was pushed.\n\nA) the lava\nB) The rock\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Coach Jay provided instruction to his son on how to eat healthy, because _ wants him to grow up being fit and strong.",
+        "option1": "his son",
+        "option2": "Coach Jay",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nCoach Jay provided instruction to his son on how to eat healthy, because _ wants him to grow up being fit and strong.\n\nA) his son\nB) Coach Jay\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "In last week's tennis match, Djokovic imitated Roddick's serve because _ was funny.",
+        "option1": "Roddick",
+        "option2": "Djokovic",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nIn last week's tennis match, Djokovic imitated Roddick's serve because _ was funny.\n\nA) Roddick\nB) Djokovic\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Americans preferred Obama to McCain because _ was younger.",
+        "option1": "McCain",
+        "option2": "Obama",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nAmericans preferred Obama to McCain because _ was younger.\n\nA) McCain\nB) Obama\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Kirilov ceded the presidency to Shatov because _ was more popular.",
+        "option1": "Kirilov",
+        "option2": "Shatov",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nKirilov ceded the presidency to Shatov because _ was more popular.\n\nA) Kirilov\nB) Shatov\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Paper beats rock, but _ is beaten by scissors.",
+        "option1": "Paper",
+        "option2": "rock",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nPaper beats rock, but _ is beaten by scissors.\n\nA) Paper\nB) rock\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The Secretary and the President met about _ being appointed.",
+        "option1": "the President",
+        "option2": "The Secretary",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe Secretary and the President met about _ being appointed.\n\nA) the President\nB) The Secretary\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of _ .",
+        "option1": "the chairs",
+        "option2": "copies of our newsletter",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nWe had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of _ .\n\nA) the chairs\nB) copies of our newsletter\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Speed boats need to pass strict tests for use while row boats have no guidelines because _ are powered by paddles instead of mechanical engines.",
+        "option1": "row boats",
+        "option2": "Speed boats",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSpeed boats need to pass strict tests for use while row boats have no guidelines because _ are powered by paddles instead of mechanical engines.\n\nA) row boats\nB) Speed boats\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Mark was close to Mr. Singer 's heels. He heard him calling for the captain , promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all _ crew had best stay in the cabin until the work was over.",
+        "option1": "the captain",
+        "option2": "Mr. Singer",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMark was close to Mr. Singer 's heels. He heard him calling for the captain , promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all _ crew had best stay in the cabin until the work was over.\n\nA) the captain\nB) Mr. Singer\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Bob collapsed on the sidewalk. Soon he saw Carl coming to help. _ was very concerned.",
+        "option1": "Bob",
+        "option2": "Carl",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nBob collapsed on the sidewalk. Soon he saw Carl coming to help. _ was very concerned.\n\nA) Bob\nB) Carl\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The kitten played with the yarn because _ was fun.",
+        "option1": "The kitten",
+        "option2": "the yarn",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe kitten played with the yarn because _ was fun.\n\nA) The kitten\nB) the yarn\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The police captured the criminals because _ were more prepared.",
+        "option1": "The police",
+        "option2": "the criminals",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe police captured the criminals because _ were more prepared.\n\nA) The police\nB) the criminals\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Derrick begged his boss for a raise but _ did not give one.",
+        "option1": "Derrick",
+        "option2": "his boss",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nDerrick begged his boss for a raise but _ did not give one.\n\nA) Derrick\nB) his boss\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "John hired _ self out to Bill to take care of him .",
+        "option1": "Bill",
+        "option2": "John",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJohn hired _ self out to Bill to take care of him .\n\nA) Bill\nB) John\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The judges monitor the performances of the competitors to measure their abilities, so _ need to be able to impress them with their skills.",
+        "option1": "the competitors",
+        "option2": "The judges",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe judges monitor the performances of the competitors to measure their abilities, so _ need to be able to impress them with their skills.\n\nA) the competitors\nB) The judges\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The doctor told Susan that _ had cancer.",
+        "option1": "Susan",
+        "option2": "The doctor",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe doctor told Susan that _ had cancer.\n\nA) Susan\nB) The doctor\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "I can't cut that tree down with that axe; _ is too small.",
+        "option1": "axe",
+        "option2": "tree",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nI can't cut that tree down with that axe; _ is too small.\n\nA) axe\nB) tree\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Anne gave birth to a daughter last month. _ is a very charming woman.",
+        "option1": "Anne",
+        "option2": "daughter",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nAnne gave birth to a daughter last month. _ is a very charming woman.\n\nA) Anne\nB) daughter\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Shigeru Miyamoto was the mentor of Satoshi Tajiri, so _ learned many things.",
+        "option1": "Satoshi Tajiri",
+        "option2": "Shigeru Miyamoto",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nShigeru Miyamoto was the mentor of Satoshi Tajiri, so _ learned many things.\n\nA) Satoshi Tajiri\nB) Shigeru Miyamoto\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "James always gives orders to Owen because _ is very obedient.",
+        "option1": "Owen",
+        "option2": "James",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJames always gives orders to Owen because _ is very obedient.\n\nA) Owen\nB) James\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "He put snow on the smiley face because _ was wet.",
+        "option1": "the smiley face",
+        "option2": "snow",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nHe put snow on the smiley face because _ was wet.\n\nA) the smiley face\nB) snow\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Steve hired Jose because _ could not find anyone better.",
+        "option1": "Steve",
+        "option2": "Jose",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSteve hired Jose because _ could not find anyone better.\n\nA) Steve\nB) Jose\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Michael asked Jacob to dance because _ felt sorry for him.",
+        "option1": "Jacob",
+        "option2": "Michael",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMichael asked Jacob to dance because _ felt sorry for him.\n\nA) Jacob\nB) Michael\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "I tried to paint a picture of an orchard, with lemons in the lemon trees, but _ came out looking more like telephone poles.",
+        "option1": "lemon trees",
+        "option2": "lemons",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nI tried to paint a picture of an orchard, with lemons in the lemon trees, but _ came out looking more like telephone poles.\n\nA) lemon trees\nB) lemons\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who _ was, but he looked very unhappy.",
+        "option1": "some guy",
+        "option2": "Jim",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nI saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who _ was, but he looked very unhappy.\n\nA) some guy\nB) Jim\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The Prince of Wales knighted William, so _ gave his son the accolade with a sword.",
+        "option1": "The Prince of Wales",
+        "option2": "William",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe Prince of Wales knighted William, so _ gave his son the accolade with a sword.\n\nA) The Prince of Wales\nB) William\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Professors give a lot of advice to students, because _ are caring.",
+        "option1": "students",
+        "option2": "Professors",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nProfessors give a lot of advice to students, because _ are caring.\n\nA) students\nB) Professors\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Larry , a timid teen-ager, lives with _ widowed mother in a Brooklyn housing project. Larry Larry's father , a gang leader, was shot to death; his father's disciple, Antonio , takes Larry under his wing, and quickly molds him into a drug runner.",
+        "option1": "Larry",
+        "option2": "Antonio",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nLarry , a timid teen-ager, lives with _ widowed mother in a Brooklyn housing project. Larry Larry's father , a gang leader, was shot to death; his father's disciple, Antonio , takes Larry under his wing, and quickly molds him into a drug runner.\n\nA) Larry\nB) Antonio\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "God created Adam for good but _ could not control his temptation.",
+        "option1": "God",
+        "option2": "Adam",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nGod created Adam for good but _ could not control his temptation.\n\nA) God\nB) Adam\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The fish ate the worm . _ was tasty.",
+        "option1": "The fish",
+        "option2": "the worm",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe fish ate the worm . _ was tasty.\n\nA) The fish\nB) the worm\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The rock melted in the lava because _ was hot.",
+        "option1": "the lava",
+        "option2": "The rock",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe rock melted in the lava because _ was hot.\n\nA) the lava\nB) The rock\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Equally swoon-worthy is C.K. Dexter Haven , a pallid young dandy holding a jade-handled walking stick, with a poodle asleep at _ feet",
+        "option1": "poodle",
+        "option2": "Haven",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nEqually swoon-worthy is C.K. Dexter Haven , a pallid young dandy holding a jade-handled walking stick, with a poodle asleep at _ feet\n\nA) poodle\nB) Haven\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The parents grounded the children since _ demanded obedience.",
+        "option1": "The parents",
+        "option2": "the children",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe parents grounded the children since _ demanded obedience.\n\nA) The parents\nB) the children\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Master Wong had to come to the defense of his pupil, Lun-Xiu, but _ is not confident he can defeat so many opponents.",
+        "option1": "Master Wong",
+        "option2": "Lun-Xiu",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMaster Wong had to come to the defense of his pupil, Lun-Xiu, but _ is not confident he can defeat so many opponents.\n\nA) Master Wong\nB) Lun-Xiu\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The general fired his pistol at the monster so _ turned and looked.",
+        "option1": "The general",
+        "option2": "the monster",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe general fired his pistol at the monster so _ turned and looked.\n\nA) The general\nB) the monster\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Sally kicked Mary and _ apologized.",
+        "option1": "Sally",
+        "option2": "Mary",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSally kicked Mary and _ apologized.\n\nA) Sally\nB) Mary\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Paul screamed at Jack since _ was ignoring him.",
+        "option1": "Paul",
+        "option2": "Jack",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nPaul screamed at Jack since _ was ignoring him.\n\nA) Paul\nB) Jack\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The light hit the mirror and _ reflected.",
+        "option1": "the mirror",
+        "option2": "The light",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe light hit the mirror and _ reflected.\n\nA) the mirror\nB) The light\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Fred is the only man still alive who remembers my great-grandfather. _ was a remarkable man.",
+        "option1": "my great-grandfather",
+        "option2": "Fred",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nFred is the only man still alive who remembers my great-grandfather. _ was a remarkable man.\n\nA) my great-grandfather\nB) Fred\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen _ and come back quickly to tell the news.",
+        "option1": "their mothers",
+        "option2": "Arthur and Celeste",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMeanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen _ and come back quickly to tell the news.\n\nA) their mothers\nB) Arthur and Celeste\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Bill punched Larry because _ was angry.",
+        "option1": "Bill",
+        "option2": "Larry",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nBill punched Larry because _ was angry.\n\nA) Bill\nB) Larry\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "DVD Players are slowly being replaced by Blu Ray Systems, but _ will still exist for years to come.",
+        "option1": "DVD Players",
+        "option2": "Blu Ray Systems",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nDVD Players are slowly being replaced by Blu Ray Systems, but _ will still exist for years to come.\n\nA) DVD Players\nB) Blu Ray Systems\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The bowl had a crack, so _ was thrown away.",
+        "option1": "a crack",
+        "option2": "The bowl",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe bowl had a crack, so _ was thrown away.\n\nA) a crack\nB) The bowl\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Monkeys hate lions because _ eat them.",
+        "option1": "lions",
+        "option2": "Monkeys",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMonkeys hate lions because _ eat them.\n\nA) lions\nB) Monkeys\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The government placed a tax on the product so _ could profit from sales.",
+        "option1": "The government",
+        "option2": "the product",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe government placed a tax on the product so _ could profit from sales.\n\nA) The government\nB) the product\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The father carried the sleeping boy in _ bassinet.",
+        "option1": "boy",
+        "option2": "The father",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe father carried the sleeping boy in _ bassinet.\n\nA) boy\nB) The father\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Katie accused Jane but _ felt badly about it.",
+        "option1": "Katie",
+        "option2": "Jane",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nKatie accused Jane but _ felt badly about it.\n\nA) Katie\nB) Jane\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Joe slapped Jose in the face because _ cussed him out.",
+        "option1": "Joe",
+        "option2": "Jose",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJoe slapped Jose in the face because _ cussed him out.\n\nA) Joe\nB) Jose\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Technician Stepanic crafted advanced opticals for Leforge, but _ would still prefer to see without such devices.",
+        "option1": "Technician Stepanic",
+        "option2": "Leforge",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nTechnician Stepanic crafted advanced opticals for Leforge, but _ would still prefer to see without such devices.\n\nA) Technician Stepanic\nB) Leforge\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The hotel staff tended to the royal family, however, _ felt the service was unsatisfactory.",
+        "option1": "the royal family",
+        "option2": "The hotel staff",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe hotel staff tended to the royal family, however, _ felt the service was unsatisfactory.\n\nA) the royal family\nB) The hotel staff\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Jeremy annoyed Justin so _ can have the room.",
+        "option1": "Justin",
+        "option2": "Jeremy",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJeremy annoyed Justin so _ can have the room.\n\nA) Justin\nB) Jeremy\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "John visited Luke in the hospital because _ was sick.",
+        "option1": "Luke",
+        "option2": "John",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJohn visited Luke in the hospital because _ was sick.\n\nA) Luke\nB) John\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Sally was really happy that Beth finally got a job because _ is a concerned friend.",
+        "option1": "Beth",
+        "option2": "Sally",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSally was really happy that Beth finally got a job because _ is a concerned friend.\n\nA) Beth\nB) Sally\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "There is a gap in the wall. You can see the garden through _.",
+        "option1": "the wall",
+        "option2": "gap",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThere is a gap in the wall. You can see the garden through _.\n\nA) the wall\nB) gap\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Bill asked Joe if _ could borrow some money.",
+        "option1": "Bill",
+        "option2": "Joe",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nBill asked Joe if _ could borrow some money.\n\nA) Bill\nB) Joe\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Ken has Adam's bike, because _ took it from him.",
+        "option1": "Ken",
+        "option2": "Adam",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nKen has Adam's bike, because _ took it from him.\n\nA) Ken\nB) Adam\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Taylor Swift is higher in record sales over Beyonce because more people can relate to _ music.",
+        "option1": "Taylor Swift",
+        "option2": "Beyonce",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nTaylor Swift is higher in record sales over Beyonce because more people can relate to _ music.\n\nA) Taylor Swift\nB) Beyonce\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The Japanese eat a lot more seafood than the Americans because _ are an island surrounded by the ocean.",
+        "option1": "the Americans",
+        "option2": "The Japanese",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe Japanese eat a lot more seafood than the Americans because _ are an island surrounded by the ocean.\n\nA) the Americans\nB) The Japanese\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "New Orleans is renown for their unique style of crawfish so _ have many restaurants which sell it.",
+        "option1": "New Orleans",
+        "option2": "crawfish",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nNew Orleans is renown for their unique style of crawfish so _ have many restaurants which sell it.\n\nA) New Orleans\nB) crawfish\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Amazon offers a generous credit program for college books since _ can be resold again to other buyers.",
+        "option1": "Amazon",
+        "option2": "college books",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nAmazon offers a generous credit program for college books since _ can be resold again to other buyers.\n\nA) Amazon\nB) college books\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Tom gave James a coat because _ was cold.",
+        "option1": "Tom",
+        "option2": "James",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nTom gave James a coat because _ was cold.\n\nA) Tom\nB) James\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The Emancipation Proclamation made slavery illegal, but _ did not actually cause many slaves to be freed.",
+        "option1": "slavery",
+        "option2": "The Emancipation Proclamation",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe Emancipation Proclamation made slavery illegal, but _ did not actually cause many slaves to be freed.\n\nA) slavery\nB) The Emancipation Proclamation\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The Walking Dead is proving to be a big hit among zombie enthusiasts so _ are watching the show every week.",
+        "option1": "zombie enthusiasts",
+        "option2": "The Walking Dead",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe Walking Dead is proving to be a big hit among zombie enthusiasts so _ are watching the show every week.\n\nA) zombie enthusiasts\nB) The Walking Dead\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Joe's uncle can still beat him at tennis, even though _ is 30 years younger.",
+        "option1": "Joe's uncle",
+        "option2": "Joe",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJoe's uncle can still beat him at tennis, even though _ is 30 years younger.\n\nA) Joe's uncle\nB) Joe\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The ghost entered the house because _ was haunting.",
+        "option1": "the house",
+        "option2": "The ghost",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe ghost entered the house because _ was haunting.\n\nA) the house\nB) The ghost\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Thomson visited Cooper 's grave in 1765. At that date _ had been travelling for five years.",
+        "option1": "Thomson",
+        "option2": "Cooper",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThomson visited Cooper 's grave in 1765. At that date _ had been travelling for five years.\n\nA) Thomson\nB) Cooper\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Santa Claus and his elves distributed millions of presents worldwide to the children of the world, because _ wish to reward those who behaved.",
+        "option1": "Santa Claus and his elves",
+        "option2": "the children of the world",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSanta Claus and his elves distributed millions of presents worldwide to the children of the world, because _ wish to reward those who behaved.\n\nA) Santa Claus and his elves\nB) the children of the world\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "I stuck a pin through a carrot. When I pulled the pin out, _ had a hole.",
+        "option1": "carrot",
+        "option2": "the pin",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nI stuck a pin through a carrot. When I pulled the pin out, _ had a hole.\n\nA) carrot\nB) the pin\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The new knives are better than the old knives since _ are losing their sharp edge due to constant use.",
+        "option1": "old knives",
+        "option2": "new knives",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe new knives are better than the old knives since _ are losing their sharp edge due to constant use.\n\nA) old knives\nB) new knives\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Jack pushed John up the hill because _ is a good samaritan.",
+        "option1": "John",
+        "option2": "Jack",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJack pushed John up the hill because _ is a good samaritan.\n\nA) John\nB) Jack\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Janice bought Kenda a car because _ needed one.",
+        "option1": "Janice",
+        "option2": "Kenda",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJanice bought Kenda a car because _ needed one.\n\nA) Janice\nB) Kenda\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Jill saw Jane fall down, and _ helped her up.",
+        "option1": "Jill",
+        "option2": "Jane",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJill saw Jane fall down, and _ helped her up.\n\nA) Jill\nB) Jane\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Scribes were often hired by nobles in the Medieval period although _ were able to read and write themselves.",
+        "option1": "Scribes",
+        "option2": "nobles",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nScribes were often hired by nobles in the Medieval period although _ were able to read and write themselves.\n\nA) Scribes\nB) nobles\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The older male cat is bullying the new younger male cat so that _ can assert his dominance.",
+        "option1": "the new younger male cat",
+        "option2": "The older male cat",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe older male cat is bullying the new younger male cat so that _ can assert his dominance.\n\nA) the new younger male cat\nB) The older male cat\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Todd was offered a recruitment letter from the Dean of Admissions himself because _ had an athletic ability that was highly regarded by the university.",
+        "option1": "Todd",
+        "option2": "the Dean of Admissions",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nTodd was offered a recruitment letter from the Dean of Admissions himself because _ had an athletic ability that was highly regarded by the university.\n\nA) Todd\nB) the Dean of Admissions\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Medvedev will cede the presidency to Putin because _ is less popular.",
+        "option1": "Medvedev",
+        "option2": "Putin",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMedvedev will cede the presidency to Putin because _ is less popular.\n\nA) Medvedev\nB) Putin\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The US Health inspection board shut down several food factories since _ were violating many rules and regulations.",
+        "option1": "several food factories",
+        "option2": "The US Health inspection board",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe US Health inspection board shut down several food factories since _ were violating many rules and regulations.\n\nA) several food factories\nB) The US Health inspection board\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "The hammer hit the bullet, so _ shot.",
+        "option1": "The hammer",
+        "option2": "the bullet",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe hammer hit the bullet, so _ shot.\n\nA) The hammer\nB) the bullet\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "This book introduced Shakespeare to Ovid ; it was a major influence on _ writing.",
+        "option1": "Shakespeare",
+        "option2": "Ovid",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThis book introduced Shakespeare to Ovid ; it was a major influence on _ writing.\n\nA) Shakespeare\nB) Ovid\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Paul tried to call George on the phone, but _ wasn't successful.",
+        "option1": "Paul",
+        "option2": "George",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nPaul tried to call George on the phone, but _ wasn't successful.\n\nA) Paul\nB) George\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Jack pushed Tim down the stairs because _ was mad.",
+        "option1": "Tim",
+        "option2": "Jack",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJack pushed Tim down the stairs because _ was mad.\n\nA) Tim\nB) Jack\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Western Digital may disappoint their shareholders this season since _ have slowed down production in their Thailand factories due to flooding.",
+        "option1": "Western Digital",
+        "option2": "their shareholders",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nWestern Digital may disappoint their shareholders this season since _ have slowed down production in their Thailand factories due to flooding.\n\nA) Western Digital\nB) their shareholders\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Michael backed Bill because John really liked _.",
+        "option1": "Michael",
+        "option2": "Bill",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMichael backed Bill because John really liked _.\n\nA) Michael\nB) Bill\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Mike helped Jack with his assignment because _ politely asked him to.",
+        "option1": "Jack",
+        "option2": "Mike",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nMike helped Jack with his assignment because _ politely asked him to.\n\nA) Jack\nB) Mike\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Katy cried for Susan since _ was sad.",
+        "option1": "Susan",
+        "option2": "Katy",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nKaty cried for Susan since _ was sad.\n\nA) Susan\nB) Katy\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The team shredded the report, so that _ could rewrite a new one.",
+        "option1": "the report",
+        "option2": "The team",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe team shredded the report, so that _ could rewrite a new one.\n\nA) the report\nB) The team\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "The NBA will most likely have a lockout this year due to players rejecting their latest compromise, but _ refuse to write up a new compromise with them.",
+        "option1": "The NBA",
+        "option2": "players",
+        "answer": "1",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nThe NBA will most likely have a lockout this year due to players rejecting their latest compromise, but _ refuse to write up a new compromise with them.\n\nA) The NBA\nB) players\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "A"
+    },
+    {
+        "sentence": "Jane knocked on the door, and Susan answered it. _ invited her to come in.",
+        "option1": "Jane",
+        "option2": "Susan",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJane knocked on the door, and Susan answered it. _ invited her to come in.\n\nA) Jane\nB) Susan\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Sharon was not able to share her supplies with Molly because _ did not have enough to spare.",
+        "option1": "Molly",
+        "option2": "Sharon",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nSharon was not able to share her supplies with Molly because _ did not have enough to spare.\n\nA) Molly\nB) Sharon\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    },
+    {
+        "sentence": "Jack the ripper killed John, but _ was not caught yet.",
+        "option1": "John",
+        "option2": "Jack",
+        "answer": "2",
+        "prompt": "Please choose the most appropriate option to fill in the blank:\nJack the ripper killed John, but _ was not caught yet.\n\nA) John\nB) Jack\n\nThe last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of AB. Think step by step before answering.",
+        "target": "B"
+    }
+]

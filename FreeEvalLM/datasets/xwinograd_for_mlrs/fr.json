@@ -1,0 +1,666 @@
+[
+    {
+        "sentence": "La coupe n'entre pas dans la valise marron, car _ est trop grande.",
+        "option1": "La coupe",
+        "option2": "la valise",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLa coupe n'entre pas dans la valise marron, car _ est trop grande.\n\nA) La coupe\nB) la valise\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "La coupe n'entre pas dans la valise marron, car _ est trop petite.",
+        "option1": "La coupe",
+        "option2": "la valise",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLa coupe n'entre pas dans la valise marron, car _ est trop petite.\n\nA) La coupe\nB) la valise\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Si l'escroc avait réussi à tromper Samuel, _ aurait pu gagner beaucoup d'argent.",
+        "option1": "l'escroc",
+        "option2": "Samuel",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nSi l'escroc avait réussi à tromper Samuel, _ aurait pu gagner beaucoup d'argent.\n\nA) l'escroc\nB) Samuel\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Si l'escroc avait réussi à tromper Samuel, _ aurait pu perdre beaucoup d'argent.",
+        "option1": "Samuel",
+        "option2": "l'escroc",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nSi l'escroc avait réussi à tromper Samuel, _ aurait pu perdre beaucoup d'argent.\n\nA) Samuel\nB) l'escroc\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Simon a pris des cours de français avec Adam, car _ voulait parler français couramment.",
+        "option1": "Simon",
+        "option2": "Adam",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nSimon a pris des cours de français avec Adam, car _ voulait parler français couramment.\n\nA) Simon\nB) Adam\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Simon a pris des cours de français avec Adam, car _ savait parler français couramment.",
+        "option1": "Adam",
+        "option2": "Simon",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nSimon a pris des cours de français avec Adam, car _ savait parler français couramment.\n\nA) Adam\nB) Simon\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Fred et Alice ont des manteaux très chauds, mais _ ne sont pas préparés pour l'hiver en Alaska.",
+        "option1": "manteaux",
+        "option2": "Fred et Alice",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nFred et Alice ont des manteaux très chauds, mais _ ne sont pas préparés pour l'hiver en Alaska.\n\nA) manteaux\nB) Fred et Alice\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Fred et Alice ont des manteaux très chauds, mais _ ne sont pas suffisants pour l'hiver en Alaska.",
+        "option1": "Fred et Alice",
+        "option2": "manteaux",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nFred et Alice ont des manteaux très chauds, mais _ ne sont pas suffisants pour l'hiver en Alaska.\n\nA) Fred et Alice\nB) manteaux\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Dupont a visité la tombe de Dubois en 1765. A cette date _ était sur la route depuis cinq ans.",
+        "option1": "Dubois",
+        "option2": "Dupont",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nDupont a visité la tombe de Dubois en 1765. A cette date _ était sur la route depuis cinq ans.\n\nA) Dubois\nB) Dupont\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Dupont a visité la tombe de Dubois en 1765. A cette date _ était mort depuis cinq ans.",
+        "option1": "Dupont",
+        "option2": "Dubois",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nDupont a visité la tombe de Dubois en 1765. A cette date _ était mort depuis cinq ans.\n\nA) Dupont\nB) Dubois\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Je ne peux pas couper la planche avec cette scie, _ est trop épaisse.",
+        "option1": "la planche",
+        "option2": "scie",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJe ne peux pas couper la planche avec cette scie, _ est trop épaisse.\n\nA) la planche\nB) scie\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Je ne peux pas couper la planche avec cette scie, _ est trop petite.",
+        "option1": "la planche",
+        "option2": "scie",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJe ne peux pas couper la planche avec cette scie, _ est trop petite.\n\nA) la planche\nB) scie\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Fred regardait la télé quand Georges est parti faire les courses. Une heure après _ s'est levé.",
+        "option1": "Fred",
+        "option2": "Georges",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nFred regardait la télé quand Georges est parti faire les courses. Une heure après _ s'est levé.\n\nA) Fred\nB) Georges\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Fred regardait la télé quand Georges est parti faire les courses. Une heure après _ est revenu.",
+        "option1": "Georges",
+        "option2": "Fred",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nFred regardait la télé quand Georges est parti faire les courses. Une heure après _ est revenu.\n\nA) Georges\nB) Fred\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "En juillet, le Kamchatka a déclaré la guerre à Yakoutsk. Comme l'armée de Yakoutsk était bien mieux équipée que celle du Kamchatka, _ ont gagné en quelques semaines.",
+        "option1": "le Kamchatka",
+        "option2": "Yakoutsk",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nEn juillet, le Kamchatka a déclaré la guerre à Yakoutsk. Comme l'armée de Yakoutsk était bien mieux équipée que celle du Kamchatka, _ ont gagné en quelques semaines.\n\nA) le Kamchatka\nB) Yakoutsk\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "En juillet, le Kamchatka a déclaré la guerre à Yakoutsk. Comme l'armée de Yakoutsk était bien mieux équipée que celle du Kamchatka, _ ont perdu en quelques semaines.",
+        "option1": "Yakoutsk",
+        "option2": "le Kamchatka",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nEn juillet, le Kamchatka a déclaré la guerre à Yakoutsk. Comme l'armée de Yakoutsk était bien mieux équipée que celle du Kamchatka, _ ont perdu en quelques semaines.\n\nA) Yakoutsk\nB) le Kamchatka\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Il y a trop de cerfs dans le parc, et les gardes forestiers ont introduit une petite meute de loups. _ population devrait rapidement diminuer.",
+        "option1": "loups",
+        "option2": "cerfs",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nIl y a trop de cerfs dans le parc, et les gardes forestiers ont introduit une petite meute de loups. _ population devrait rapidement diminuer.\n\nA) loups\nB) cerfs\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Il y a trop de cerfs dans le parc, et les gardes forestiers ont introduit une petite meute de loups. _ population devrait rapidement augmenter.",
+        "option1": "loups",
+        "option2": "cerfs",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nIl y a trop de cerfs dans le parc, et les gardes forestiers ont introduit une petite meute de loups. _ population devrait rapidement augmenter.\n\nA) loups\nB) cerfs\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Les archéologues ont découvert que des hommes préhistoriques vivaient à Laputa _ y a 20 000 ans. Ils cherchaient des indices sur les berges de la rivière.",
+        "option1": "Les archéologues",
+        "option2": "hommes préhistoriques",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLes archéologues ont découvert que des hommes préhistoriques vivaient à Laputa _ y a 20 000 ans. Ils cherchaient des indices sur les berges de la rivière.\n\nA) Les archéologues\nB) hommes préhistoriques\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Les archéologues ont découvert que des hommes préhistoriques vivaient à Laputa _ y a 20 000 ans. Ils cherchaient du gibier sur les berges de la rivière.",
+        "option1": "Les archéologues",
+        "option2": "hommes préhistoriques",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLes archéologues ont découvert que des hommes préhistoriques vivaient à Laputa _ y a 20 000 ans. Ils cherchaient du gibier sur les berges de la rivière.\n\nA) Les archéologues\nB) hommes préhistoriques\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "La police a arrêté tous les membres d'un gang. _ essayaient de stopper un trafic de drogue dans le quartier.",
+        "option1": "La police",
+        "option2": "gang",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLa police a arrêté tous les membres d'un gang. _ essayaient de stopper un trafic de drogue dans le quartier.\n\nA) La police\nB) gang\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "La police a arrêté tous les membres d'un gang. _ essayaient d'organiser un trafic de drogue dans le quartier.",
+        "option1": "La police",
+        "option2": "gang",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLa police a arrêté tous les membres d'un gang. _ essayaient d'organiser un trafic de drogue dans le quartier.\n\nA) La police\nB) gang\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Jean s'est mis au service de Benoît pour s'occuper de _.",
+        "option1": "Jean",
+        "option2": "Benoît",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJean s'est mis au service de Benoît pour s'occuper de _.\n\nA) Jean\nB) Benoît\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Jean a embauché Benoît pour s'occuper de _.",
+        "option1": "Benoît",
+        "option2": "Jean",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJean a embauché Benoît pour s'occuper de _.\n\nA) Benoît\nB) Jean\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Jean a promis à Benoît de partir, et _ est parti au bout d'une heure.",
+        "option1": "Benoît",
+        "option2": "Jean",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJean a promis à Benoît de partir, et _ est parti au bout d'une heure.\n\nA) Benoît\nB) Jean\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Jean a ordonné à Benoît de partir, et _ est parti au bout d'une heure.",
+        "option1": "Jean",
+        "option2": "Benoît",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJean a ordonné à Benoît de partir, et _ est parti au bout d'une heure.\n\nA) Jean\nB) Benoît\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Claire a frappé à la porte de Sylvie, mais _ n'a pas eu de réponse.",
+        "option1": "Claire",
+        "option2": "Sylvie",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nClaire a frappé à la porte de Sylvie, mais _ n'a pas eu de réponse.\n\nA) Claire\nB) Sylvie\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Claire a frappé à la porte de Sylvie, mais _ n'a pas répondu.",
+        "option1": "Claire",
+        "option2": "Sylvie",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nClaire a frappé à la porte de Sylvie, mais _ n'a pas répondu.\n\nA) Claire\nB) Sylvie\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Joël a payé le détective quand _ a reçu le rapport final sur l'affaire.",
+        "option1": "Joël",
+        "option2": "le détective",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJoël a payé le détective quand _ a reçu le rapport final sur l'affaire.\n\nA) Joël\nB) le détective\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Joël a payé le détective quand _ a livré le rapport final sur l'affaire.",
+        "option1": "Joël",
+        "option2": "le détective",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJoël a payé le détective quand _ a livré le rapport final sur l'affaire.\n\nA) Joël\nB) le détective\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Benoît a passé la gameboy à Jean car ce n'était pas _ tour.",
+        "option1": "Benoît",
+        "option2": "Jean",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nBenoît a passé la gameboy à Jean car ce n'était pas _ tour.\n\nA) Benoît\nB) Jean\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Benoît a passé la gameboy à Jean car c'était _ tour.",
+        "option1": "Benoît",
+        "option2": "Jean",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nBenoît a passé la gameboy à Jean car c'était _ tour.\n\nA) Benoît\nB) Jean\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "L'homme a porté le garçon sur _ dos.",
+        "option1": "L'homme",
+        "option2": "garçon",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nL'homme a porté le garçon sur _ dos.\n\nA) L'homme\nB) garçon\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "L'homme a porté le garçon sur _ lit.",
+        "option1": "L'homme",
+        "option2": "garçon",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nL'homme a porté le garçon sur _ lit.\n\nA) L'homme\nB) garçon\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "La femme a tenu la fille contre _ poitrine.",
+        "option1": "La femme",
+        "option2": "la fille",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLa femme a tenu la fille contre _ poitrine.\n\nA) La femme\nB) la fille\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "La femme a tenu la fille contre _ volonté.",
+        "option1": "la fille",
+        "option2": "La femme",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLa femme a tenu la fille contre _ volonté.\n\nA) la fille\nB) La femme\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Claire a remercié Suzanne pour tous les efforts qu'elle _ a demandés.",
+        "option1": "Suzanne",
+        "option2": "Claire",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nClaire a remercié Suzanne pour tous les efforts qu'elle _ a demandés.\n\nA) Suzanne\nB) Claire\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Claire a remercié Suzanne pour tous les efforts qu'elle _ a consacrés.",
+        "option1": "Suzanne",
+        "option2": "Claire",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nClaire a remercié Suzanne pour tous les efforts qu'elle _ a consacrés.\n\nA) Suzanne\nB) Claire\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "La sculpture est tombée de l'étagère car _ était trop lourde.",
+        "option1": "La sculpture",
+        "option2": "l'étagère",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLa sculpture est tombée de l'étagère car _ était trop lourde.\n\nA) La sculpture\nB) l'étagère\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "La sculpture est tombée de l'étagère car _ était trop encombrée.",
+        "option1": "l'étagère",
+        "option2": "La sculpture",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLa sculpture est tombée de l'étagère car _ était trop encombrée.\n\nA) l'étagère\nB) La sculpture\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "François s'est fâché contre Thomas, car le grille-pain qu'il _ a acheté ne marche pas.",
+        "option1": "Thomas",
+        "option2": "François",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nFrançois s'est fâché contre Thomas, car le grille-pain qu'il _ a acheté ne marche pas.\n\nA) Thomas\nB) François\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "François s'est fâché contre Thomas, car le grille-pain qu'il _ a vendu ne marche pas.",
+        "option1": "Thomas",
+        "option2": "François",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nFrançois s'est fâché contre Thomas, car le grille-pain qu'il _ a vendu ne marche pas.\n\nA) Thomas\nB) François\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Pierre envie Martin même si _ est bien plus brillant.",
+        "option1": "Martin",
+        "option2": "Pierre",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nPierre envie Martin même si _ est bien plus brillant.\n\nA) Martin\nB) Pierre\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Pierre envie Martin car _ est bien plus brillant.",
+        "option1": "Pierre",
+        "option2": "Martin",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nPierre envie Martin car _ est bien plus brillant.\n\nA) Pierre\nB) Martin\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Le rendez-vous n'a commencé qu'à 16:00 et mon train était à 16:30 donc j'étais pressé. Heureusement, _ a été de courte durée.",
+        "option1": "Le rendez-vous",
+        "option2": "mon train",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe rendez-vous n'a commencé qu'à 16:00 et mon train était à 16:30 donc j'étais pressé. Heureusement, _ a été de courte durée.\n\nA) Le rendez-vous\nB) mon train\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Le rendez-vous n'a commencé qu'à 16:00 et mon train était à 16:30 donc j'étais pressé. Heureusement, _ a été retardé.",
+        "option1": "mon train",
+        "option2": "Le rendez-vous",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe rendez-vous n'a commencé qu'à 16:00 et mon train était à 16:30 donc j'étais pressé. Heureusement, _ a été retardé.\n\nA) mon train\nB) Le rendez-vous\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "La pluie a commencé à tomber au début d'une séance de yoga en plein air et _ a continué jusqu'à vingt-deux heures.",
+        "option1": "La pluie",
+        "option2": "séance",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLa pluie a commencé à tomber au début d'une séance de yoga en plein air et _ a continué jusqu'à vingt-deux heures.\n\nA) La pluie\nB) séance\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "La pluie a commencé à tomber au début d'une séance de yoga en plein air mais _ a continué jusqu'à vingt-deux heures.",
+        "option1": "La pluie",
+        "option2": "séance",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLa pluie a commencé à tomber au début d'une séance de yoga en plein air mais _ a continué jusqu'à vingt-deux heures.\n\nA) La pluie\nB) séance\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Anne a demandé à Marie les horaires de fermeture de la bibliothèque, car _ les avait oubliés.",
+        "option1": "Marie",
+        "option2": "Anne",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nAnne a demandé à Marie les horaires de fermeture de la bibliothèque, car _ les avait oubliés.\n\nA) Marie\nB) Anne\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Anne a demandé à Marie les horaires de fermeture de la bibliothèque, mais _ les avait oubliés.",
+        "option1": "Marie",
+        "option2": "Anne",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nAnne a demandé à Marie les horaires de fermeture de la bibliothèque, mais _ les avait oubliés.\n\nA) Marie\nB) Anne\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Pierre jouait aux cartes avec Adam qui menait au score. Si la chance d'Adam n'avait pas tourné _ aurait perdu.",
+        "option1": "Adam",
+        "option2": "Pierre",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nPierre jouait aux cartes avec Adam qui menait au score. Si la chance d'Adam n'avait pas tourné _ aurait perdu.\n\nA) Adam\nB) Pierre\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Pierre jouait aux cartes avec Adam qui menait au score. Si la chance d'Adam n'avait pas tourné _ aurait gagné.",
+        "option1": "Pierre",
+        "option2": "Adam",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nPierre jouait aux cartes avec Adam qui menait au score. Si la chance d'Adam n'avait pas tourné _ aurait gagné.\n\nA) Pierre\nB) Adam\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Le chien courait après un chat qui a alors grimpé dans un arbre. _ est resté en bas toute la nuit.",
+        "option1": "Le chien",
+        "option2": "chat",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe chien courait après un chat qui a alors grimpé dans un arbre. _ est resté en bas toute la nuit.\n\nA) Le chien\nB) chat\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Le chien courait après un chat qui a alors grimpé dans un arbre. _ est resté en haut toute la nuit.",
+        "option1": "Le chien",
+        "option2": "chat",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe chien courait après un chat qui a alors grimpé dans un arbre. _ est resté en haut toute la nuit.\n\nA) Le chien\nB) chat\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Boris a fait un malaise sur le trottoir et Carlo s'est approché pour l'aider. _ était très faible.",
+        "option1": "Carlo",
+        "option2": "Boris",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nBoris a fait un malaise sur le trottoir et Carlo s'est approché pour l'aider. _ était très faible.\n\nA) Carlo\nB) Boris\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Boris a fait un malaise sur le trottoir et Carlo s'est approché pour l'aider. _ était très inquiet.",
+        "option1": "Boris",
+        "option2": "Carlo",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nBoris a fait un malaise sur le trottoir et Carlo s'est approché pour l'aider. _ était très inquiet.\n\nA) Boris\nB) Carlo\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Pierre et Marc sont poursuivis pour diffamation. Pierre a écrit dans leur livre plusieurs faux témoignages que Marc a colportés. _ aurait dû être plus honnête.",
+        "option1": "Marc",
+        "option2": "Pierre",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nPierre et Marc sont poursuivis pour diffamation. Pierre a écrit dans leur livre plusieurs faux témoignages que Marc a colportés. _ aurait dû être plus honnête.\n\nA) Marc\nB) Pierre\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Pierre et Marc sont poursuivis pour diffamation. Pierre a écrit dans leur livre plusieurs faux témoignages que Marc a colportés. _ aurait dû être plus prudent.",
+        "option1": "Pierre",
+        "option2": "Marc",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nPierre et Marc sont poursuivis pour diffamation. Pierre a écrit dans leur livre plusieurs faux témoignages que Marc a colportés. _ aurait dû être plus prudent.\n\nA) Pierre\nB) Marc\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Les scientifiques étudient trois espèces de poissons trouvées récemment dans l'océan indien. Ils ont commencé _ y a deux ans.",
+        "option1": "poissons",
+        "option2": "Les scientifiques",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLes scientifiques étudient trois espèces de poissons trouvées récemment dans l'océan indien. Ils ont commencé _ y a deux ans.\n\nA) poissons\nB) Les scientifiques\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Les scientifiques étudient trois espèces de poissons trouvées récemment dans l'océan indien. Ils sont apparus _ y a deux ans.",
+        "option1": "Les scientifiques",
+        "option2": "poissons",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLes scientifiques étudient trois espèces de poissons trouvées récemment dans l'océan indien. Ils sont apparus _ y a deux ans.\n\nA) Les scientifiques\nB) poissons\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Thomas a dit \"échec\" à Raphaël et a déplacé _ fou.",
+        "option1": "Raphaël",
+        "option2": "Thomas",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nThomas a dit \"échec\" à Raphaël et a déplacé _ fou.\n\nA) Raphaël\nB) Thomas\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Thomas a dit \"échec\" à Raphaël et a capturé _ fou.",
+        "option1": "Thomas",
+        "option2": "Raphaël",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nThomas a dit \"échec\" à Raphaël et a capturé _ fou.\n\nA) Thomas\nB) Raphaël\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Le scooter a dépassé le bus scolaire, car _ roulait trop vite.",
+        "option1": "Le scooter",
+        "option2": "le bus scolaire",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe scooter a dépassé le bus scolaire, car _ roulait trop vite.\n\nA) Le scooter\nB) le bus scolaire\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Le scooter a dépassé le bus scolaire, car _ roulait trop lentement.",
+        "option1": "le bus scolaire",
+        "option2": "Le scooter",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe scooter a dépassé le bus scolaire, car _ roulait trop lentement.\n\nA) le bus scolaire\nB) Le scooter\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "L'éponge de Paul va abîmer la carafe: _ est en fer.",
+        "option1": "L'éponge",
+        "option2": "la carafe",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nL'éponge de Paul va abîmer la carafe: _ est en fer.\n\nA) L'éponge\nB) la carafe\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "L'éponge de Paul va abîmer la carafe: _ est en cristal.",
+        "option1": "L'éponge",
+        "option2": "la carafe",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nL'éponge de Paul va abîmer la carafe: _ est en cristal.\n\nA) L'éponge\nB) la carafe\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Jérémy s'est emporté contre Kevin, car _ était très contrarié.",
+        "option1": "Kevin",
+        "option2": "Jérémy",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJérémy s'est emporté contre Kevin, car _ était très contrarié.\n\nA) Kevin\nB) Jérémy\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Jérémy a pris soin de Kevin, car _ était très contrarié.",
+        "option1": "Kevin",
+        "option2": "Jérémy",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJérémy a pris soin de Kevin, car _ était très contrarié.\n\nA) Kevin\nB) Jérémy\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Le sac de pommes de terre est au-dessus du sac de farine, donc _ faudra le déplacer en premier.",
+        "option1": "sac de farine",
+        "option2": "Le sac de pommes de terre",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe sac de pommes de terre est au-dessus du sac de farine, donc _ faudra le déplacer en premier.\n\nA) sac de farine\nB) Le sac de pommes de terre\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Le sac de pommes de terre est en-dessous du sac de farine, donc _ faudra le déplacer en premier.",
+        "option1": "Le sac de pommes de terre",
+        "option2": "sac de farine",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe sac de pommes de terre est en-dessous du sac de farine, donc _ faudra le déplacer en premier.\n\nA) Le sac de pommes de terre\nB) sac de farine\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Sylvie est au courant de tous les problèmes personnels de Marie car _ est curieuse.",
+        "option1": "Marie",
+        "option2": "Sylvie",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nSylvie est au courant de tous les problèmes personnels de Marie car _ est curieuse.\n\nA) Marie\nB) Sylvie\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Sylvie est au courant de tous les problèmes personnels de Marie car _ est bavarde.",
+        "option1": "Sylvie",
+        "option2": "Marie",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nSylvie est au courant de tous les problèmes personnels de Marie car _ est bavarde.\n\nA) Sylvie\nB) Marie\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Le tableau dans le salon de Mark représente un arbre. _ est placé à droite de la bibliothèque.",
+        "option1": "arbre",
+        "option2": "Le tableau",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe tableau dans le salon de Mark représente un arbre. _ est placé à droite de la bibliothèque.\n\nA) arbre\nB) Le tableau\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Le tableau dans le salon de Mark représente un arbre. _ est placé à droite d'une maison.",
+        "option1": "arbre",
+        "option2": "Le tableau",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe tableau dans le salon de Mark représente un arbre. _ est placé à droite d'une maison.\n\nA) arbre\nB) Le tableau\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Je suis sûre que ce monument est dans mon guide, _ est incontournable.",
+        "option1": "monument",
+        "option2": "guide",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJe suis sûre que ce monument est dans mon guide, _ est incontournable.\n\nA) monument\nB) guide\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Je suis sûre que ce monument est dans mon guide, _ est complet.",
+        "option1": "guide",
+        "option2": "monument",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJe suis sûre que ce monument est dans mon guide, _ est complet.\n\nA) guide\nB) monument\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "J'ai mis la clé dans la serrure, mais _ était bouchée avec du chewing-gum, je n'ai pas pu l' extirper.",
+        "option1": "la clé",
+        "option2": "la serrure",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJ'ai mis la clé dans la serrure, mais _ était bouchée avec du chewing-gum, je n'ai pas pu l' extirper.\n\nA) la clé\nB) la serrure\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "J'ai mis la clé dans la serrure, mais _ était bouchée avec du chewing-gum, je n'ai pas pu l' ouvrir.",
+        "option1": "la clé",
+        "option2": "la serrure",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nJ'ai mis la clé dans la serrure, mais _ était bouchée avec du chewing-gum, je n'ai pas pu l' ouvrir.\n\nA) la clé\nB) la serrure\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Le braqueur est entré dans la banque et a poignardé un des guichetiers. _ a été condamné presque immédiatement.",
+        "option1": "guichetiers",
+        "option2": "Le braqueur",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nLe braqueur est entré dans la banque et a poignardé un des guichetiers. _ a été condamné presque immédiatement.\n\nA) guichetiers\nB) Le braqueur\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    },
+    {
+        "sentence": "Samuel et Amélie sont passionnément amoureux mais les parents d'Amélie sont contre cette relation car _ sont jeunes.",
+        "option1": "Samuel et Amélie",
+        "option2": "les parents d'Amélie",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nSamuel et Amélie sont passionnément amoureux mais les parents d'Amélie sont contre cette relation car _ sont jeunes.\n\nA) Samuel et Amélie\nB) les parents d'Amélie\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Samuel et Amélie sont passionnément amoureux mais les parents d'Amélie sont contre cette relation car _ sont snobs.",
+        "option1": "les parents d'Amélie",
+        "option2": "Samuel et Amélie",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nSamuel et Amélie sont passionnément amoureux mais les parents d'Amélie sont contre cette relation car _ sont snobs.\n\nA) les parents d'Amélie\nB) Samuel et Amélie\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Gabrielle est contente d'avoir échangé _ pull contre mon gilet. Elle pense qu'il est très démodé.",
+        "option1": "pull",
+        "option2": "gilet",
+        "answer": "1",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nGabrielle est contente d'avoir échangé _ pull contre mon gilet. Elle pense qu'il est très démodé.\n\nA) pull\nB) gilet\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "A"
+    },
+    {
+        "sentence": "Gabrielle est contente d'avoir échangé _ pull contre mon gilet. Elle pense qu'il est très beau.",
+        "option1": "pull",
+        "option2": "gilet",
+        "answer": "2",
+        "prompt": "Veuillez choisir l'option la plus appropriée pour compléter la phrase :\nGabrielle est contente d'avoir échangé _ pull contre mon gilet. Elle pense qu'il est très beau.\n\nA) pull\nB) gilet\n\nLa dernière ligne de votre réponse doit être au format suivant : 'Answer: $LETTER' (sans les guillemets) où LETTER est l'une des lettres AB. Réfléchissez étape par étape avant de répondre.",
+        "target": "B"
+    }
+]
