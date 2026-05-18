@@ -1,3 +1,5 @@
+import os
+
 import fire
 
 from transformers import AutoTokenizer
@@ -134,25 +136,32 @@ def main(
     metric_df = pd.DataFrame()
     length_df = pd.DataFrame()
 
-    list_dir = os.listdir(folder_path)
-    list_dir = [item for item in list_dir if item != "FINAL.xlsx"] + ["FINAL.xlsx"]
+    list_dir = [
+        item
+        for item in os.listdir(folder_path)
+        if item.endswith(".xlsx")
+        and "metric_summary" not in item
+        and "length_summary" not in item
+    ]
+    # Original code always appended FINAL.xlsx even when missing; process it last only if present.
+    if "FINAL.xlsx" in list_dir:
+        list_dir = [item for item in list_dir if item != "FINAL.xlsx"] + ["FINAL.xlsx"]
+
     for filename in list_dir:
-        if filename.endswith('.xlsx') and "metric_summary" not in filename and "length_summary" not in filename:
-            file_path = os.path.join(folder_path, filename)
+        file_path = os.path.join(folder_path, filename)
+        if not os.path.isfile(file_path):
+            continue
 
-            df = pd.read_excel(file_path)
+        df = pd.read_excel(file_path)
 
-            if {'Strength', 'Metric',}.issubset(df.columns):
-                df.set_index('Strength', inplace=True)
-                col_name = os.path.splitext(filename)[0]
-                metric_df[col_name] = df['Metric']
-                metric_df[col_name + "_rea_fidelity"] = df['rea_fidelity']
-                metric_df[col_name + "_rep_fidelity"] = df['res_fidelity']
-                
-                
-                # length_df[col_name] = df['Length']
-            else:
-                continue
+        if {'Strength', 'Metric',}.issubset(df.columns):
+            df.set_index('Strength', inplace=True)
+            col_name = os.path.splitext(filename)[0]
+            metric_df[col_name] = df['Metric']
+            metric_df[col_name + "_rea_fidelity"] = df['rea_fidelity']
+            metric_df[col_name + "_rep_fidelity"] = df['res_fidelity']
+        else:
+            continue
 
     metric_df.to_excel(os.path.join(result_dir, 'metric_summary.xlsx'))
     length_df.to_excel(os.path.join(result_dir, 'length_summary.xlsx'))

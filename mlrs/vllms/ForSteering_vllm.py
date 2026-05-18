@@ -4,6 +4,13 @@ import contextlib
 import functools
 from typing import List, Tuple, Callable
 
+# mlrs reaches into the V0 executor graph: `llm_engine.model_executor.driver_worker`.
+# vLLM 0.9+ defaults to V1 (`VLLM_USE_V1=1`); with V1 multiprocessing the engine
+# omits `model_executor`, which breaks steering hooks. Default to V0 unless the
+# user explicitly chose V1.
+if "VLLM_USE_V1" not in os.environ:
+    os.environ["VLLM_USE_V1"] = "0"
+
 import ray
 import torch
 from vllm import LLM, SamplingParams
