@@ -40,46 +40,36 @@ class ForSteeringVLLMMlrs(ForSteeringVLLM):
             s = float(steering_strength)
             self.steering_strength = self.steering_strength2 = s
 
-    def def_hook_steer_fn(self, moudle, input, output):
-        """
-        output:
-        (
-            hidden_states,      # shape: [batch_size, seq_len, hidden_dim]
-            maybe_kv_cache      # shape: depends on implementation, often [batch_size, num_heads, seq_len, head_dim]
-        )
+    def _steered_layer_indices_ordered(self):
+        u = set(self.steering_layers)
+        if getattr(self, "steering_layers2", None):
+            u |= set(self.steering_layers2)
+        return sorted(u)
 
-        """
-        res = output[0].clone()
-
-        self.fn_num += 1
-
-        self.fn_num += 1
-        layer = self.fn_num % self.layer_num - 1
-        if layer < 0:
-            layer = self.layer_num - 1
-
-        if layer in self.steering_layers:
+    def _steer_modify_layer(self, layer_idx, module, input, output):
+        if layer_idx in self.steering_layers:
             if self.steering_strength == 0:
                 return output
-            self.layer_space = self.vector.to(res.device)[layer]
+            res = output[0].clone()
+            self.vector = self.vector.to(res.device)
+            layer_space = self.vector[layer_idx]
             proj = self.projection(
-                res, self.layer_space.to(torch.bfloat16).to(res.device)
+                res, layer_space.to(torch.bfloat16).to(res.device)
             )
             new_tensor = res - self.steering_strength * proj
-
             return (new_tensor,) + output[1:]
 
-        elif self.steering_layers2 is not None and layer in self.steering_layers2:
+        if self.steering_layers2 is not None and layer_idx in self.steering_layers2:
             if self.steering_strength2 == 0:
                 return output
-            self.layer_space = self.vector.to(res.device)[layer]
+            res = output[0].clone()
+            self.vector = self.vector.to(res.device)
+            layer_space = self.vector[layer_idx]
             proj = self.projection(
-                res, self.layer_space.to(torch.bfloat16).to(res.device)
+                res, layer_space.to(torch.bfloat16).to(res.device)
             )
             new_tensor = res - self.steering_strength2 * proj
-
             return (new_tensor,) + output[1:]
 
-        else:
-            return output
+        return output
 

@@ -2,7 +2,7 @@ import os
 import re
 import contextlib
 import functools
-from typing import List, Tuple, Callable
+from typing import List, Tuple, Callable, FrozenSet
 
 # mlrs reaches into the V0 executor graph: `llm_engine.model_executor.driver_worker`.
 # vLLM 0.9+ defaults to V1 (`VLLM_USE_V1=1`); with V1 multiprocessing the engine
@@ -19,6 +19,14 @@ from transformers import AutoTokenizer
 # from mlrs.vllms.thu_vllm import create_llm
 
 class ForSteeringVLLM:
+    @staticmethod
+    def _fwd_input_last_token_positions(all_indices):
+        """Match ``def_hook_fn`` indexing against vLLM forward args (flattened positions)."""
+        zero_indices = (all_indices == 0).nonzero(as_tuple=True)[0]
+        zero_indices = zero_indices - 1
+        zero_indices = zero_indices.tolist()
+        return zero_indices[1:] + [all_indices.shape[0] - 1]
+
     def __init__(
             self, 
             model_name_or_path: str,
@@ -58,6 +66,7 @@ class ForSteeringVLLM:
         self.layer_num = 0
         self.fn_num = 0
         self.test_num = 0
+        self._capture_model_fwd_handles: List = []
         if steering_level == "prompt" :
             self.init_hooks_return_activations()
     
@@ -83,10 +92,10 @@ class ForSteeringVLLM:
         
     def init_hooks_steer_activations(self):
         self.hook_steer_activations = []
-        for layer in self.lm_model.model.layers:
-            self.hook_steer_activations.append(
-                (layer, self.def_hook_steer_fn)
-            )
+        self.layer_num = 0
+        for layer_idx, layer in enumerate(self.lm_model.model.layers):
+            steer_hook = functools.partial(self.steer_layer_forward_hook, layer_idx)
+            self.hook_steer_activations.append((layer, steer_hook))
             self.layer_num += 1
 
         if self.steering_layers is None:
@@ -116,25 +125,88 @@ class ForSteeringVLLM:
         return bool(re.match(pattern, s))
     
 
-    def def_hook_steer_fn(self, moudle, input, output):
+    def steer_layer_forward_hook(self, layer_idx: int, module, input, output):
+        out = self._steer_modify_layer(layer_idx, module, input, output)
+        self._maybe_capture_steered(layer_idx, out[0], input)
+        return out
 
+    def _steer_modify_layer(self, layer_idx: int, module, input, output):
         if self.steering_strength == 0:
             return output
-        self.fn_num += 1 
-        layer = self.fn_num % self.layer_num - 1
-        if layer < 0:
-            layer = self.layer_num - 1
-            
-        if layer in self.steering_layers:
-            res = output[0].clone()
-            new_shape = res.shape
-            self.vector = self.vector.to(res.device)
-            new_tensor = res + self.steering_strength * self.vector[self.fn_num % self.layer_num - 1]
 
-            # new_output = (new_tensor, output1) + output[1:]
-            return (new_tensor, ) + output[1:]
-        else:
+        if layer_idx not in self.steering_layers:
             return output
+
+        res = output[0].clone()
+        self.vector = self.vector.to(res.device)
+        new_tensor = res + self.steering_strength * self.vector[layer_idx]
+        return (new_tensor,) + output[1:]
+
+    def _steered_layer_indices_ordered(self) -> List[int]:
+        return sorted(set(self.steering_layers))
+
+    def _capture_steered_layer_set_for_run(self) -> FrozenSet[int]:
+        return frozenset(self._steered_layer_indices_ordered())
+
+    def _maybe_capture_steered(self, layer_idx: int, hidden_tensor, fwd_input_tuple: tuple):
+        if not getattr(self, "_steered_capture_cli_requested", False):
+            return
+        if not getattr(self, "_steered_capture_allow_fwd", False):
+            return
+        layers_set = getattr(self, "capture_steered_layer_set", frozenset())
+        if layer_idx not in layers_set:
+            return
+        all_indices = fwd_input_tuple[0]
+        last_token_positions = self._fwd_input_last_token_positions(all_indices)
+        self.capture_steered_hook_tick += 1
+
+        res = hidden_tensor
+        row_offset = self.prompt_index_steered_capture
+        for i in range(len(last_token_positions)):
+            if self.capture_steered_hook_tick % self.layer_num == 1:
+                self.temp_steered_activations.append([])
+            else:
+                pass
+            a = last_token_positions[i]
+            self.temp_steered_activations[i + row_offset].append(res[a].detach().cpu())
+
+        if self.capture_steered_hook_tick % self.layer_num == 0:
+            self.prompt_index_steered_capture += len(last_token_positions)
+
+    def _model_forward_pre_tracking_hook(self, module, args):
+        """First full ``lm_model.model`` forward is treated as prefill; index 1 = first decode slab."""
+        if not getattr(self, "_steered_capture_cli_requested", False):
+            return
+        target_idx = getattr(self, "steered_capture_model_fwd_index", 1)
+        self._steered_capture_allow_fwd = self._model_fwd_seen == target_idx
+        self._model_fwd_seen += 1
+
+    def _finalize_steered_activations(self):
+        stacked = getattr(self, "temp_steered_activations", None)
+        if not stacked:
+            return None
+        out_rows = []
+        for i in range(len(stacked)):
+            if len(stacked[i]) == 0:
+                continue
+            out_rows.append(torch.stack(stacked[i]))
+        if not out_rows:
+            return None
+        return torch.stack(out_rows)
+
+    def return_steered_activations_tensor(self):
+        """
+        Dense tensor ``[num_prompts, num_steered_layers, hidden_dim]`` from the last
+        ``generate_token`` run with ``capture_steered_first_token=True``.
+
+        Indices follow ``capture_steered_layer_indices`` (sorted intervened decoder ids).
+        """
+        return getattr(self, "_steered_activation_tensor", None)
+
+    def steered_activation_layer_indices(self):
+        """Ordered decoder indices aligned with activation dim ``1``."""
+        ix = getattr(self, "capture_steered_layer_indices_ordered", None)
+        return [] if ix is None else list(ix)
     
     
     def def_hook_fn(self, moudle, input, output):
@@ -148,10 +220,7 @@ class ForSteeringVLLM:
         '''
         res = output[0]
         all_indices = input[0]
-        zero_indices = (all_indices == 0).nonzero(as_tuple=True)[0]
-        zero_indices = zero_indices - 1
-        zero_indices = zero_indices.tolist()
-        last_token_positions = zero_indices[1:] + [all_indices.shape[0] - 1]
+        last_token_positions = self._fwd_input_last_token_positions(all_indices)
 
         prompt_index_before = self.prompt_index
  
@@ -229,9 +298,12 @@ class ForSteeringVLLM:
         self, 
         if_return_activations: bool = True,
         if_steer_activations: bool = False,
+        capture_steered_first_token: bool = False,
         prompt_token_ids_list : List[str] = None
     ):
-        
+        self._steered_activation_tensor = None
+        self.capture_steered_layer_indices_ordered = None
+
         if if_return_activations:
             self.temp_activations = []
             self.prompt_index = 0
@@ -250,13 +322,27 @@ class ForSteeringVLLM:
             self.all_res_activations.extend(self.temp_activations)
             
         elif if_steer_activations and self.steering_level == "prompt":
-            with self.add_hooks([], self.hook_steer_activations):
-                outputs = self.model.generate(
-                    prompt_token_ids=prompt_token_ids_list,
-                    sampling_params=self.sampling_params,
-                    use_tqdm=True if self.batch_size == "auto" else False
-                )
-                
+            capture_run = bool(capture_steered_first_token)
+            try:
+                if capture_steered_first_token:
+                    self._prepare_steered_capture_state()
+                    h = self.lm_model.model.register_forward_pre_hook(
+                        self._model_forward_pre_tracking_hook
+                    )
+                    self._capture_model_fwd_handles.append(h)
+                with self.add_hooks([], self.hook_steer_activations):
+                    outputs = self.model.generate(
+                        prompt_token_ids=prompt_token_ids_list,
+                        sampling_params=self.sampling_params,
+                        use_tqdm=True if self.batch_size == "auto" else False
+                    )
+            finally:
+                for h in getattr(self, "_capture_model_fwd_handles", []):
+                    h.remove()
+                self._capture_model_fwd_handles.clear()
+                if capture_run:
+                    self._finalize_steered_capture_after_generate()
+
         else:
             outputs = self.model.generate(
                 prompt_token_ids=prompt_token_ids_list,
@@ -268,6 +354,31 @@ class ForSteeringVLLM:
         for output in outputs:
             answers.append(output.outputs[0].text)
         return answers
+
+    def _prepare_steered_capture_state(self):
+        ordered = list(self._steered_layer_indices_ordered())
+        env_idx = os.environ.get("MLRS_STEER_CAPTURE_MODEL_FWD_INDEX", "").strip()
+        target_fwd = 1
+        if env_idx.isdigit():
+            target_fwd = int(env_idx)
+
+        self._steered_capture_cli_requested = True
+        self.capture_steered_layer_indices_ordered = ordered
+        self.capture_steered_layer_set = self._capture_steered_layer_set_for_run()
+        self.temp_steered_activations = []
+        self.prompt_index_steered_capture = 0
+        self.capture_steered_hook_tick = 0
+        self._model_fwd_seen = 0
+        self.steered_capture_model_fwd_index = target_fwd
+        self._steered_capture_allow_fwd = False
+
+    def _finalize_steered_capture_after_generate(self):
+        self._steered_capture_cli_requested = False
+        if getattr(self, "capture_steered_layer_indices_ordered", None) is None:
+            self._steered_activation_tensor = None
+            return
+        stacked = self._finalize_steered_activations()
+        self._steered_activation_tensor = stacked
 
 
 if __name__ == "__main__":
