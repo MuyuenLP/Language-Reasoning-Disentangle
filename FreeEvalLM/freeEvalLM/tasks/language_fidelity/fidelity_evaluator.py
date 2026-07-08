@@ -2,12 +2,16 @@ import re
 import os
 from tqdm import tqdm
 import fasttext
-
+from pathlib import Path
 
 
 class fidelity_evaluator:
     def __init__(self):
-        self.model = fasttext.load_model("/home/jhguo/Code/FreeEvalLM/glotlid/model.bin")
+        
+        BASE_DIR = Path(__file__).resolve().parents[3]
+        MODEL_PATH = BASE_DIR / "glotlid" / "model.bin"
+        
+        self.model = fasttext.load_model(str(MODEL_PATH))
         # self.init_languages()
         self.init_mapping()
 

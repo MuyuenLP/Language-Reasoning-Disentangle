@@ -3,6 +3,10 @@ current_path = os.getcwd()
 
 from freeEvalLM._lib._df import read_file
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[2]
+DATASET_DIR = BASE_DIR.parent / "datasets"
 
 class TaskLoader:
     def __init__(self, 
@@ -18,11 +22,11 @@ class TaskLoader:
     def doc(self):
         # print(self.task)
         if self.task == "mgsm":
-            self.data_path = os.path.join("datasets/mgsm_0shots")
+            self.data_path = str(DATASET_DIR / "mgsm_0shots")
         elif self.task == "mmmlu_for_mlrs":
-            self.data_path = os.path.join("datasets/mmmlu_for_mlrs")
+            self.data_path = str(DATASET_DIR / "mmmlu_for_mlrs")
         elif self.task == "xwinograd_for_mlrs":
-            self.data_path = os.path.join("datasets/xwinograd_for_mlrs")
+            self.data_path = str(DATASET_DIR / "xwinograd_for_mlrs")
         else:
             print("self.task is", self.task)
 
